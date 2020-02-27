@@ -5,13 +5,22 @@
     <title>Unit 2 - Element Head</title>
     <style>
         body{
-            background: #ccc;
+            background: rgb(110, 110, 110);
             font-family: Arial, Helvetica, sans-serif;
             color:#fff;
         }
     </style>
+
+    <script>
+        function writeName() {
+            document.getElementById("name").innerHTML = "Alexander Delfim"
+        }
+
+        window.onload = writeName;
+    </script>
+
 </head>
 <body>
-    This is the second unit.
+    <p id="name"></p>
 </body>
 </html>
