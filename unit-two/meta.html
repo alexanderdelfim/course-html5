@@ -1,15 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt_BR">
 <head>
+    <title>Unit 2 - Element Head</title>
+
     <meta charset="UTF-8">
     <meta name="author" content="Alexander Delfim">
     <meta name="generator" content="Visual Stuido Code">
     <meta name="Keywords" content="HTML5, Course HTML5, Course Front End, CSS, Javascript">
     <meta name="description" content="HTML5 course page">
     <meta name="application-name" content="Alexander Delfim">
-    <title>Unit 2 - Element Head</title>
+
+    <meta http-equiv="refresh" content="2">
+
+    <script>
+        function randomNumberDrawer() {
+            document.getElementById("result").innerHTML = Math.random() * 50;
+        }
+
+        window.onload = randomNumberDrawer;
+    </script>
 </head>
 <body>
-
+    <p id="result"></p>
 </body>
 </html>
