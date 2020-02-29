@@ -5,7 +5,27 @@
         <title>Menu</title>
         
         <style>
+            html { background-color:#F6F6F6 }
             
+            main { width:955px; margin:-1px auto 10px; border:1px solid #ddd; background-color:#FFF; font-family:Arial, Helvetica, sans-serif }
+            header { width:955px; height:95px }
+            
+            nav { width: 955px; background-color: #5D240A }
+            nav ul { list-style:none; margin:0; padding:4px }
+            nav ul li { display:inline-block }
+            nav ul li a { font-size: 0.85em; text-decoration: none; color: #FFF; padding: 4px 20px }
+            nav ul li a:hover { background-color: #B4531A }
+            
+            article { float:left; margin:30px 20px; width:600px }
+            aside {float: left; width: 230px; font-style: italic; border-top: 1px solid #cc6633; border-bottom: 1px solid #cc6633; padding: 40px 10px 0; margin-right: 20px; margin-bottom: 20px; background: url(../images/quotation_marks.gif) no-repeat;}
+            aside p {color: #999;}
+            #support { float:right; width:300px; margin-top:30px }		
+            footer { clear:both; width:700px; margin:0 auto; font-size:0.75em; text-align:center; background-color:#ECECEC; padding:5px }
+            
+            h1, h2, h4 { font-family:Georgia, "Times New Roman", Times, serif; color:#C63; font-style:italic; letter-spacing:-0.05em }
+            h1 { font-size:2.6em; margin:0 5px; }
+            h4 { font-size:1.6em; margin:0 5px; }
+            p, li { font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:0.9em; color:#555; line-height:1.8 }
         </style> 
 	</head>
 
@@ -27,10 +47,10 @@
                   </ul>
             </nav>
 
-            <!-- adicionar article -->
-                <!-- adicionar header -->
+            <article>
+                <header>
                     <h1>Menu</h1>
-                <!-- finalizar header -->
+                </header>
                 
                 <h4>Appetizers</h4>
                 <p><img src="../images/appetizer.jpg" width="475" height="102" alt=""/></p>
@@ -68,9 +88,8 @@
                   <li>Alaskan Halibut with a Rich Loire Valley Beurre Blanc Sauce - served with mashed purple Peruvian potatoes and haricot verts.</li>
                   <li>Recommended pairing: '98 Passi Emilio Vineyards Sauvignon Blanc </li>
                 </ul>
-            <!-- finalizar article -->
-
-            <!-- adicionar div de apoio -->
+            </article>
+            <div id="support">
                 <section class="support-photos">
                     <h2>Map</h2>
                     <img src="../images/mapa_como_chegar.gif" width="275" height="299" />
@@ -85,12 +104,12 @@
                     <h2>Wine</h2>
                     <img src="../images/vinhos.jpg" width="275" height="203" />    
                 </section>
-            <!-- finalizar div de apoio -->
+            </div>
 
-            <!-- adicionar rodape -->
+            <footer>
                 <p>Cafe Fontenebleu - Street Ernesto de Paula Santos, 187 Hall 506 - Recife-PE</p>
                 <p><small>&copy Copyright 2020 - Media Brasil All rights reserved.</small></p>
-            <!-- finalizar rodape -->
+            </footer>
         </main>
 		
     </body>
