@@ -5,18 +5,55 @@
     <meta charset="UTF-8">
     <title>Unit Nine - Tables</title>
     <style>
-        table {
-            width: 300px;
-        }
+        body {
+			font-family:Arial, Helvetica, sans-serif;
+		}
+	
+		table { 
+			width:700px;
+			margin:0 auto;
+			border-spacing:0;
+			border-right:1px solid #ccc;
+			border-bottom:1px solid #ccc;
+		}
+		
+		caption {
+			font-size:130%;
+			font-weight:bold;
+			padding:5px 0;
+			background-color:#ECECEC;
+			border:1px solid #ccc;
+			border-bottom:none;
+		}
+		
+		tr, td, th {
+			border:thin solid #ccc;
+			border-bottom:none;
+			border-right:none;
+			padding:5px;
+		}
+		
+		td { 
+			text-align:center;
+		}
+		
+		th {
+			text-align:left;
+		}
+		
+		thead th {
+			text-align:center;
+			background-color:#E0E0E0;
+		}
 
-        td, th {
-            background: #ddd;
-            padding: 8px;
-        }
-
-        th {
-            text-align: left;
-        }
+		thead tr th:first-child {
+			text-align:left;
+		}
+		
+		tfoot td {
+			font-size:.9em;
+			color:#666;
+		}
     </style>
 </head>
 
