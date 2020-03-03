@@ -4,10 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <title>Unit Ten - Forms</title>
+
+    <link rel="stylesheet" href="css/style.css" media="screen">
 </head>
 
 <body>
-    
+
+    <h2>Form</h2>
+    <form action="destiny.html" method="POST">
+
+        <label for="name">Complet name:</label>
+        <input type="text" name="name" id="name" size="30" maxlength="100"> 
+
+        <label for="phone">Phone:</label>
+        <input type="tel" name="phone" id="phone" size="30" maxlength="30">
+
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email" size="30" maxlength="60">
+
+        <input type="submit" value="Submit" id="submit" name="submit">
+    </form>
+
 </body>
 
 </html>
