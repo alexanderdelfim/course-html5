@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Unit Ten - Forms</title>
+    <script>
+        function showResult(val) {
+            document.getElementById("result").innerHTML = val;
+        }
+    </script>
+</head>
+
+<body>
+
+    <form action="index.html" method="POST">
+        <label for="childs">Childs:</label>
+        <input type="range" id="childs" min="0" max="10" value="0" onchange="showResult(this.value)">
+        <span id="result"></span>
+    </form>
+
+</body>
+
+</html>
